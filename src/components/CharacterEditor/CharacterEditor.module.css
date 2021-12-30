@@ -26,9 +26,15 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 15%;
+  left: 60%;
+  bottom: 5%;
+  min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
 }
 
 .perspectiveBar {
@@ -37,5 +43,5 @@
   width: 100%;
   position: fixed;
   left: 0;
-  top: 60%;
+  bottom: 0;
 }
